@@ -1,0 +1,77 @@
+
+/* =====================
+   Hero Section
+   ===================== */
+
+.hero {
+  display: flex;
+  gap: 2rem;
+  background: linear-gradient(135deg, #6b4fa1, #8b6fd6);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+}
+
+.hero-content {
+  flex: 2;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  margin-right: 0.5rem;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background-color: #ffffff;
+  color: #6b4fa1;
+}
+
+.hero-box {
+  flex: 1;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.hero-box:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+.hero-box h3 {
+  margin-bottom: 0.5rem;
+  color: #6b4fa1;
+}
+
+.hero-box strong {
+  padding: 0 1.5rem;
+}
