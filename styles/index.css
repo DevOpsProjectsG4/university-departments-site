@@ -7,7 +7,7 @@
   display: flex;
   gap: 2rem;
   background: linear-gradient(135deg, #6b4fa1, #8b6fd6);
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 2.5rem;
   border-radius: 12px;
 }
@@ -37,8 +37,8 @@
   padding: 0.6rem 1rem;
   border-radius: 6px;
   text-decoration: none;
-  color: white;
-  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   margin-right: 0.5rem;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .highlight-card {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
@@ -119,3 +119,54 @@
   transition: all 0.3s ease;
 }
 
+/* =====================
+   News Section
+   ===================== */
+
+.news {
+  margin-top: 3rem;
+}
+
+.news h2 {
+  color: #6b4fa1;
+  margin-bottom: 1rem;
+}
+
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news li {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.news li:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+/* =====================
+   Responsive Design
+   ===================== */
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .highlights {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+}
