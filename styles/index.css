@@ -75,3 +75,47 @@
 .hero-box strong {
   padding: 0 1.5rem;
 }
+
+/* =====================
+   About Section
+   ===================== */
+
+.about {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: #6b4fa1;
+}
+
+
+/* =====================
+   Highlights Section
+   ===================== */
+
+.highlights {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.highlight-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.highlight-card h3 {
+  color: #6b4fa1;
+}
+
+.highlight-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
