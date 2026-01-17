@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Department Website</title>
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="icon" href="../assets/logo.jpg">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-container">
+
+        <div class="branding">
+            <img src="../assets/logo.jpg" alt="Department Logo" class="logo">
+            <div>
+                <h1>Computer Science Department</h1>
+                <p>University Department Website</p>
+            </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+</header>
+
+<main class="content">
+    <p>Write your content here.</p>
+</main>
+
+<footer class="site-footer">
+    <p>© 2026 Computer Science Department · University Department Website</p>
+</footer>
+
+<script>
+    const toggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".main-nav");
+
+    toggle.addEventListener("click", () => {
+        toggle.classList.toggle("open");
+        nav.classList.toggle("nav-open");
+    });
+</script>
+
+</body>
+</html>
