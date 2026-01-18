@@ -1,0 +1,105 @@
+.faculty-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.faculty-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #3f2b5b;
+}
+
+.faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.faculty-panel {
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: #fff;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.faculty-panel:hover {
+    transform: translateY(-6px);
+}
+
+/* Theme-consistent gradients */
+.prof-one {
+    background: linear-gradient(135deg, #6b4fa1, #8b6fd6);
+}
+
+.prof-two {
+    background: linear-gradient(135deg, #3f2b5b, #6b4fa1);
+}
+
+.prof-three {
+    background: linear-gradient(135deg, #8b6fd6, #6b4fa1);
+}
+
+.prof-four {
+    background: linear-gradient(135deg, #6b4fa1, #3f2b5b);
+}
+
+.prof-five {
+    background: linear-gradient(135deg, #6b4fa1, #8b6fd6);
+}
+
+.prof-six {
+    background: linear-gradient(135deg, #3f2b5b, #6b4fa1);
+}
+
+.faculty-panel h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.faculty-panel .designation {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.faculty-panel .specialization {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.faculty-panel .office-hours {
+    font-size: 0.85rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.faculty-intro,
+.faculty-achievements,
+.faculty-contact,
+.faculty-research {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f3f0ff;
+    border-radius: 10px;
+}
+
+.faculty-achievements ul,
+.faculty-research ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+.faculty-contact table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.faculty-contact th,
+.faculty-contact td {
+    border: 1px solid #6b4fa1;
+    padding: 0.75rem;
+    text-align: left;
+}
