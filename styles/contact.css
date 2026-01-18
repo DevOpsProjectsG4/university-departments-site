@@ -103,3 +103,14 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* =====================
+   Mobile spacing fix
+   ===================== */
+
+@media (max-width: 768px) {
+    .contact-page {
+        margin: 1rem;
+        padding: 1.5rem 1.2rem;
+    }
+}
