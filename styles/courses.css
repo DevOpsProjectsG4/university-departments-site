@@ -1,7 +1,6 @@
 /* =====================
    Page Heading
    ===================== */
-
 .page-heading {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(107, 79, 161, 0.15);
@@ -165,7 +164,8 @@
   position: relative;
   transition: all 0.35s ease;
 }
-/* Hover effect */
+
+
 .course-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 22px 40px rgba(107, 79, 161, 0.25);
