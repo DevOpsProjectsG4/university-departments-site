@@ -1,0 +1,151 @@
+/* =====================
+   admissions page
+   ===================== */
+
+.admissions-title {
+  font-size: 2rem;
+  color: #6b4fa1;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* =====================
+   sections
+   ===================== */
+
+.admissions-section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(107, 79, 161, 0.1);
+}
+
+.admissions-section h3 {
+  font-size: 1.5rem;
+  color: #6b4fa1;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.admissions-section h4 {
+  color: #8b6fd6;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* =====================
+   lists
+   ===================== */
+
+.admissions-list {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.admissions-list li {
+  margin-bottom: 0.75rem;
+  color: #1f1f1f;
+}
+
+/* =====================
+   deadlines grid
+   ===================== */
+
+.deadlines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.deadline-item {
+  background: linear-gradient(135deg, #6b4fa1, #8b6fd6);
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.deadline-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(107, 79, 161, 0.3);
+}
+
+.deadline-item h4 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.deadline-date {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* =====================
+   programs grid
+   ===================== */
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.program-card {
+  background-color: #f9f7ff;
+  border-left: 4px solid #6b4fa1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.program-card:hover {
+  background-color: #f3f0ff;
+  box-shadow: 0 4px 12px rgba(107, 79, 161, 0.2);
+  border-left-color: #8b6fd6;
+}
+
+.program-card h4 {
+  margin-bottom: 0.75rem;
+}
+
+.program-card p {
+  color: #1f1f1f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* =====================
+   responsive
+   ===================== */
+
+@media (max-width: 768px) {
+  .admissions-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .admissions-section {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .admissions-section h3 {
+    font-size: 1.25rem;
+  }
+
+  .deadlines-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .programs-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
