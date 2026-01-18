@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     environment: development
     steps:
-      - name: Deploy Website
+      - name: deploy website
         run: curl -X POST ${{ secrets.DEVELOP_ENV_HOOK}} 
