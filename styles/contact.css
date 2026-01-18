@@ -92,7 +92,6 @@
     cursor: pointer;
     font-size: 0.95rem;
 }
-
 .submit-btn:hover {
     box-shadow: 0 8px 20px rgba(107, 79, 161, 0.35);
 }
