@@ -130,3 +130,21 @@
     color: #6b4fa1;
     margin-bottom: 1rem;
 }
+
+/* ---------- Responsive Table ---------- */
+
+@media (max-width: 768px) {
+    .faculty-contact {
+        overflow-x: auto;
+    }
+    .faculty-contact h2{
+        position: fixed;
+    }
+
+    .faculty-contact table {
+        margin-top: 3.7rem;
+        min-width: 600px;
+        display: block;
+        white-space: nowrap;
+    }
+}
