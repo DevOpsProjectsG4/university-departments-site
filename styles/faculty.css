@@ -62,21 +62,33 @@
     margin-bottom: 2.3rem;
     border-bottom: 1px solid rgba(107, 79, 161, 0.15);
 }
+
 /* Extra sections */
 .faculty-achievements,
 .faculty-contact,
 .faculty-research {
     margin: 2rem 0;
     padding: 1.5rem;
-    background: #f3f0ff;
-    border-radius: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(107, 79, 161, 0.1);
 }
 
 .faculty-achievements ul,
 .faculty-research ul {
     list-style: disc;
     margin-left: 1.5rem;
+    line-height: 1.8;
     color: #1f1f1f;
+}
+
+.faculty-achievements ul li,
+.faculty-research ul li {
+    margin-bottom: 0.75rem;
+}
+
+.faculty-research p{
+    margin-bottom: 0.75rem;
 }
 
 .faculty-contact table {
@@ -92,16 +104,29 @@
     text-align: left;
     color: #1f1f1f;
 }
+
+.faculty-contact th {
+    background-color: #6b4fa1; 
+    color: rgb(255, 255, 255); 
+    border: 1px solid #ffffff;
+}
+
+.faculty-contact tr:nth-child(odd) {
+    background-color: #f3f0ff;
+}
+
 .faculty-intro h2{
     font-size: 2rem;
+    color: #6b4fa1;
 }
 .faculty-intro p{
     font-size: 1.05rem;
     line-height: 1.75;
 }
-.faculty-intro h2,
+
 .faculty-achievements h2,
 .faculty-contact h2,
 .faculty-research h2 {
     color: #6b4fa1;
+    margin-bottom: 1rem;
 }
