@@ -17,7 +17,7 @@
 
 .contact-intro h2 {
     font-size: 2rem;
-    color: #3f2b5b;
+    color: #6b4fa1;
     margin-bottom: 0.75rem;
 }
 
@@ -84,15 +84,16 @@
 /* Button */
 
 .submit-btn {
-    background: linear-gradient(135deg, #6b4fa1, #8b6fd6);
+    background: #6b4fa1;
     color: #ffffff;
     border: none;
-    padding: 0.7rem 1.6rem;
-    border-radius: 24px;
+    padding: 0.75rem 1.6rem;
+    border-radius: 12px;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 .submit-btn:hover {
+    transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(107, 79, 161, 0.35);
 }
 

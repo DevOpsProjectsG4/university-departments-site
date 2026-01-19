@@ -35,7 +35,7 @@
 .btn {
   display: inline-block;
   padding: 0.6rem 1rem;
-  border-radius: 6px;
+  border-radius: 12px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
@@ -89,6 +89,10 @@
   color: #6b4fa1;
 }
 
+.about p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
 
 /* =====================
    Highlights Section
