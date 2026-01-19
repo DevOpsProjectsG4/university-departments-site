@@ -25,7 +25,6 @@
 .courses-section {
   position: relative;
   padding: 2.5rem 2rem;
-  margin-bottom: 4rem;
   background: linear-gradient(
     180deg,
     rgba(244, 241, 251, 0.7),
@@ -194,6 +193,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.8rem;
+  margin-bottom: 3rem;
 }
 
 .outcome-card {
@@ -231,7 +231,6 @@
 }
 
 .cta p {
-  max-width: 750px;
   margin-bottom: 1.4rem;
   line-height: 1.7;
 }
