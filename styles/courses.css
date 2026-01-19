@@ -268,11 +268,15 @@
 /* =====================
    CTA Buttons
    ===================== */
+
+.cta a{
+  text-decoration: none;
+  color: #6b4fa1;
+}
 .btn.primary {
-  background: #e9dbff;            /* deep purple */
+  background: #ffffff;            /* deep purple */
   color: #33213a;                     /* white text */
   border: 2px solid #6b4fa1;      /* border matches */
-  font-weight: 600;
   font-size: 1.05rem;
   padding: 0.75rem 1.8rem;
   border-radius: 12px;
@@ -284,11 +288,8 @@
 
 /* Hover */
 .btn.primary:hover {
-  background: #8b6fd6;             /* lighter purple gradient effect */
-  border-color: #8b6fd6;
-  transform: translateY(-4px);
+  transform: translateY(-2px);
   box-shadow: 0 14px 28px rgba(107, 79, 161, 0.3);
-  color: #fff;
 }
 
 /* Optional: pulse animation for extra prominence */
