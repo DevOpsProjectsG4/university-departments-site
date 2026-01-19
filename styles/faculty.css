@@ -56,9 +56,11 @@
     display: inline-block;
     color: #3f2b5b;
 }
-
+.faculty-intro{
+    background: #f3f0ff;
+    border-radius: 10px;
+}
 /* Extra sections */
-.faculty-intro,
 .faculty-achievements,
 .faculty-contact,
 .faculty-research {
@@ -87,6 +89,9 @@
     padding: 0.75rem;
     text-align: left;
     color: #1f1f1f;
+}
+.faculty-intro h2{
+    font-size: 2rem;
 }
 
 .faculty-intro h2,
